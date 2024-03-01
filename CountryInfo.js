@@ -1,7 +1,6 @@
 //Use the rest countries APi url and display all the countries names,region,sub-region and populations
 
 let info = new XMLHttpRequest();
-console.log(info);
 
 info.open("GET","https://restcountries.com/v2/all");
 
